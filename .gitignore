@@ -1,0 +1,39 @@
+# Ignore bin and obj folders
+/bin/
+/obj/
+
+# Ignore user-specific files
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore build output
+/build/
+/out/
+
+# Ignore the packages folder (NuGet dependencies)
+packages/
+
+# Ignore app settings file (if sensitive)
+appsettings.json
+appsettings.Development.json
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp
+*.bak
+
+# Ignore the directory where test results are saved
+TestResults/
+
+# Ignore directory for Visual Studio Code workspace settings
+.vscode/
+
+# Ignore .NET Core configuration files
+project.lock.json
+project.fragment.lock.json
